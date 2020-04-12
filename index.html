@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Free Web tutorials" />
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript" />
+    <meta name="author" content="John Doe" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
@@ -22,6 +27,8 @@
       integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
       crossorigin="anonymous"
     ></script>
+    <link rel="shortcut icon" type="image/jpeg" href="Images/IMG_7154.jpeg">
+
     <title>Michael's blog</title>
   </head>
   <body class="bg-light">
@@ -65,9 +72,9 @@
     </nav>
 
     <div class="row">
-      <div class="row col-sm-10">
+      <div class="row col-lg-10 col-12 mx-auto ">
         <div
-          class="card container-sm bg-info text-center border-primary mt-3"
+          class="card container-sm bg-info text-center  border-primary mt-3"
           style="width: 21rem;"
         >
           <div class="card-header h3 font-weight-bold">
@@ -86,7 +93,7 @@
           </div>
         </div>
         <div
-          class="card container-sm bg-info text-center border-primary mt-3"
+          class="card container-sm bg-info mx-auto text-center border-primary mt-3"
           style="width: 21rem;"
         >
           <div class="card-header h3 font-weight-bold">
@@ -107,7 +114,7 @@
           </div>
         </div>
         <div
-          class="card container-sm bg-info text-center border-primary mt-3"
+          class="card container-sm bg-info mx-auto text-center border-primary mt-3"
           style="width: 21rem;"
         >
           <div class="card-header h3 font-weight-bold">
@@ -178,49 +185,37 @@
         </div>
       </div>
       <!-- sidebar -->
-     
-        <sidebar>
-            
-          <div class="row">
-            <div class="col-sm-2 offset-sm-1">
-              <div class="card bg-danger text-center" style="width: 14rem;">
-                <img
-                  src="Images/IMG_9312.jpeg"
-                  class="card-img-top"
-                  alt="..."
-                />
-                <div class="card-body">
-                  <p class="card-text">
-                    Hi, I'm Hedyeh. I live in Manchester with my husband an my
-                    little son Michael. This blog is a collection of thoughts
-                    about motherhood and some photos of my baby. Hope you enjoy
-                    it.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div
-            class="card offset-sm-1 text-center bg-danger"
-            style="width: 14rem;"
-          >
-            <img
-              src="Images/1819d8d3-86e3-4c97-a5b6-963dc3ed4eee.jpeg"
-              class="card-img-top"
-              alt="..."
-            />
-            <div class="card-body">
-              <h5 class="card-title">Get More Information</h5>
-              <p class="card-text">
-                If you whant to know more about me and my motherhood jurney
-                please sign up for more details
-              </p>
-              <a href="#" class="btn btn-primary">Sign Up</a>
-            </div>
-          </div>
-            </div>
-        </sidebar>
-      
+       <sidebar class="col-lg-2 bg-danger mt-3">
+        <div class="row ">
+          <img
+            src="Images/IMG_9312.jpeg"
+            class=" col-lg-12 col-6 py-2 mx-auto"
+            alt="..."
+             style="width: 30%; height: 30%;" 
+          />
+
+          <p class="col-lg-12 col-6 justify-content-center mt-3">
+            Hi, I'm Hedyeh. I live in Manchester with my husband an my little
+            son Michael. This blog is a collection of thoughts about motherhood
+            and some photos of my baby. Hope you enjoy it.
+          </p>
+        </div>
+        <div class="row  float-lg-right">
+          <img
+            src="Images/1819d8d3-86e3-4c97-a5b6-963dc3ed4eee.jpeg"
+            class=" col-lg-12 col-6 py-2 mx-auto"
+            alt="..."
+             style="width: 30%; height: 30%;" 
+          />
+
+          <p class="col-lg-12 col-6 justify-content-center mt-3">
+            If you whant to know more about me and my motherhood jurney
+                please sign up for more information.
+          </p>
+          <a href="#" class="btn btn-primary btn-block mt-5">Sign Up</a>
+        </div>
+    </div> 
+      </sidebar>  
     </div>
 
     <!-- footer -->
